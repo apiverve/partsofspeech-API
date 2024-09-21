@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/partsofspeech",
+  "version": "1.1.5",
+  "description": "Parts Of Speech is a simple tool for extracting nouns, verbs, adjectives, adverbs, etc. from text. It returns the extracted words based on the part of speech specified.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/partsofspeech-API.git"
+  },
+  "keywords": [
+    "word extractor","word extractor api","word extractor tool","word extractor software","word extractor service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/partsofspeech-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/partsofspeech?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
